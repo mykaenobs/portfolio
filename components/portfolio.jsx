@@ -1,11 +1,11 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Portfolio = ({ reversed }) => {
-  console.log(reversed)
   return (
     <section className={"max-w-wrapper ml-auto mr-auto flex justify-between " + reversed + " items-center gap-32 mt-20"}>
-      <div className="bg-grey-100 flex-1 h-96">
-        <span className="block w-full h-full bg-red-200 transform rotate-6"></span>
+      <div className="bg-grey-100 flex-1 h-96 relative">
+        <Image src={"https://unsplash.com/photos/i1VQZsU86ok"} className="transform rotate-6" alt="Project one" layout="fill" />
       </div>
       <div className="flex-1">
         <small className="flex items-center gap-2 text-red-100">
