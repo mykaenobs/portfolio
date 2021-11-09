@@ -4,8 +4,10 @@ import Image from 'next/image';
 const Portfolio = ({ reversed }) => {
   return (
     <section className={"max-w-wrapper ml-auto mr-auto flex justify-between " + reversed + " items-center gap-32 mt-20"}>
-      <div className="bg-grey-100 flex-1 h-96 relative">
-        <Image src={"https://unsplash.com/photos/i1VQZsU86ok"} className="transform rotate-6" alt="Project one" layout="fill" />
+      <div className="bg-grey-100 flex-1 h-80 relative">
+        <div className="transform rotate-6 w-full h-full">
+          <Image src="/images/project-01.png" className="transform" alt="Project one" layout="fill" />
+        </div>
       </div>
       <div className="flex-1">
         <small className="flex items-center gap-2 text-red-100">
