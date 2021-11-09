@@ -10,7 +10,7 @@ const Portfolio = ({ reversed }) => {
         </div>
       </div>
       <div className="flex-1">
-        <small className="flex items-center gap-2 text-red-100">
+        <small className="flex items-center gap-2 text-red-200">
           <hr className="border-red-100 w-4" />
           <span>Project 1</span>
         </small>
